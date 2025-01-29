@@ -18,3 +18,25 @@ employee = [
     [5,'D'],
     [4,'SD']
 ]
+
+// Union    
+let pid: string | number 
+pid = '22'
+
+// Enum
+enum Direction1 {
+    up,
+    Down,
+    Left,
+    Rigth,
+}
+
+// Object
+type User = {
+    id: nember,
+    name: string
+}
+const user = {
+    id: 1,
+    name: 'john'
+}

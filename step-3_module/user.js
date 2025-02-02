@@ -6,9 +6,9 @@ export default class User {
 }
 
 export function printname(user) {
-  console.log(`User's name is ${user.name}`);
+  console.log(`User's name is ${User.name}`);
 }
 
-export function printname(age) {
-  console.log(`User is ${user.age} years old`);
+export function printage(age) {
+  console.log(`User is ${User.age} years old`);
 }
